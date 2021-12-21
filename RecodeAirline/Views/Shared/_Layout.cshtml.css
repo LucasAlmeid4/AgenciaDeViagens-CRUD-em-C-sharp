@@ -1,0 +1,102 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+* {
+    font-family: HindMBold;
+}
+
+body #bg {
+    background: url(../img/bgg.jpg) no-repeat;
+    background-attachment: fixed;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+#servicos .col-md-6 img:hover {
+    border: 1px solid green;
+}
+
+.form-group{
+    display:inline-block;
+    width:50%;
+}
+#msg-prog{
+    display:inline-block;
+    position:relative;
+}
+
+a {
+    color: dimgrey;
+}
+
+    .btn-primary {
+        color: #fff;
+        background-color: #1b6ec2;
+        border-color: #1861ac;
+    }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer { 
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  background-color: white;
+ 
+}
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+        color: #919496;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+.footer .navbar-nav a {
+    font-size: 0.8em;
+    color:black;
+}
+
+.footer .navbar-nav a:hover {
+            color: #9bf0e1;
+            font-size: 0.8em;
+            text-decoration: none;
+        }
+
+.footer ul {
+        list-style: none;
+    }
+
+.footer ul li {
+            float: right;
+            margin: 0 15px;
+        }
